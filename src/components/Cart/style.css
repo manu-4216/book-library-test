@@ -1,0 +1,35 @@
+.Cart-Body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Price-Group-Container {
+    height: 60px; /* fixed height to avoid jerky mouvement after loading finished*/
+    position: relative;
+    margin-top: 30px;
+}
+
+.Price-Group {
+    margin: 10px;
+}
+
+.Price-Row {
+    text-align: left;
+}
+
+.Price-Row-Discount {
+    color: #bf2409;
+    border-bottom: 1px solid black;
+}
+.Price-Row-Final {
+    font-weight: bold;
+}
+
+.Price-Row-Text {
+    position: relative;
+    left: 0;
+}
+
+.Price-Row-Value {
+    float: right;
+}

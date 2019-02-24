@@ -1,0 +1,14 @@
+/* Used for setting the scroll bar only on the content area (not header) */
+.App-Body-Container {
+    width: 100vw;
+    height: calc(100vh - 40px); /* minus Header height */
+    overflow-y: auto;
+}
+
+/* Use this class to apply general rules for all the routes (home, cart) */
+.App-Body {
+    width: 85vw;
+    max-width: 60em; /* limit the width to avoid very wide list items */
+    margin: 0 auto;
+    text-align: center;
+}

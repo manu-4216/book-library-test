@@ -1,0 +1,30 @@
+.Header {
+    background-color: #222;
+    padding: 10px;
+    text-align: left;
+}
+
+.Header-Title {
+    font-weight: 600;
+    color: white;
+}
+.Header-Title:hover {
+    color: antiquewhite;
+}
+
+.Header-Subtitle {
+    text-transform: capitalize;
+    font-size: 90%;
+    margin-left: 5px;
+    color: white;
+}
+
+.Header-Cart-Link {
+    float: right;
+    font-style: normal;
+    margin-right: 5px;
+}
+
+.Header-Cart-Count {
+    padding: 0 5px;
+}

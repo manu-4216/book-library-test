@@ -1,0 +1,73 @@
+.Book {
+    overflow: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: box-shadow 0.2s ease;
+}
+
+/* Separate the card style */
+.Card {
+    padding-right: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 2px rgba(210, 200, 200, 0.65);
+    margin-bottom: 10px;
+}
+
+.Card:hover {
+    box-shadow: 1px 1px 5px 4px rgba(210, 200, 200, 0.8);
+}
+
+.Book-Image {
+    /* Fix the image size to avoid jerky content movement once images are loaded */
+    height: 190px;
+    width: 140px;
+    display: inline-block;
+    margin: 10px 0 0 0;
+    vertical-align: top;
+    background: #f3f3f3; /* displayed when the image didn't finish loading */
+}
+
+/* Info displayed under (mobile) or on the right (desktop) of the picture  */
+.Book-Info {
+    text-align: left;
+    text-align: center;
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 530px) {
+    .Book-Image {
+        margin: 0 10px 0 0;
+        float: left;
+    }
+
+    .Book-Info {
+        text-align: left;
+    }
+}
+
+.Book-Header {
+    font-size: 110%;
+    margin: 0.4em 0.2em 0;
+    font-weight: 600;
+    color: #0173e2;
+}
+
+.Book-ISBN {
+    font-size: 85%;
+    color: #5a5854;
+}
+
+.Book-Price {
+    color: #bf2409;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.Book-Action {
+    margin: 10px 0;
+}
+
+.Book-Action .button {
+    padding-left: 5em;
+    padding-right: 5em;
+}

@@ -1,0 +1,12 @@
+.List-Books {
+    margin: 0px auto 0;
+    max-width: 70em;
+}
+
+.Books-Filtered-Number {
+    padding-bottom: 1em;
+}
+
+.Books-Filtered-Confirmation {
+    color: #07b607;
+}

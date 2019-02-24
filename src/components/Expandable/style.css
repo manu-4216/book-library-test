@@ -1,0 +1,45 @@
+.Expandable {
+    position: relative;
+    font-size: 90%;
+}
+
+.Expandable-Content {
+    text-align: justify;
+    height: 2.7em; /* 2 rows of text */
+    overflow: hidden;
+}
+
+.Expandable.Expanded .Expandable-Content {
+    height: auto;
+    overflow: inherit;
+}
+
+.Expandable-More-Area {
+    position: absolute;
+    bottom: -0.1em;
+    right: 0;
+}
+.Expanded .Expandable-More-Area {
+    display: none;
+}
+
+.Expandable-More-Area-Dots {
+    background-image: linear-gradient(to right, transparent, white, white);
+    padding-left: 15px;
+    padding-bottom: 4px;
+}
+
+.Expandable-More-Area-Text {
+    background: white;
+    cursor: pointer;
+    padding-left: 5px;
+    text-decoration: underline;
+    padding-bottom: 4px;
+}
+
+.Expandable-Less-Text {
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: -10px;
+}
